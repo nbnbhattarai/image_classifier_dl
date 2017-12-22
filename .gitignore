@@ -1,0 +1,9 @@
+# Emacs temp file
+*~
+*#*
+*#*#
+
+# html
+*.html
+
+__pycache__/
