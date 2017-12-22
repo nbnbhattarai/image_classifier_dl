@@ -7,3 +7,5 @@
 *.html
 
 __pycache__/
+
+datasets/
