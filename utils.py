@@ -15,13 +15,14 @@ def sigmoid_backward(dA, cache):
     Z = cache
     s = 1 / (1 + np.exp(-Z))
     dZ = dA * s * (1 - s)
+    return dZ
 
 
 def relu(Z):
     """
     Implementation of ReLU(Rectified Linear Unit).
     """
-    return max(0, Z), Z
+    return np.maximum(0, Z), Z
 
 
 def relu_backward(dA, cache):
